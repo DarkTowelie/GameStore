@@ -1,0 +1,118 @@
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.exe
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.deps.json
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.runtimeconfig.json
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\ref\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.pdb
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.AssemblyReference.cache
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\ResDictionary.baml
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\App.g.cs
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.cache
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.lref
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\App.baml
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.g.resources
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfoInputs.cache
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfo.cs
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CoreCompileInputs.cache
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CopyComplete
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\ref\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.pdb
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.genruntimeconfig.cache
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.g.cs
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.baml
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.g.cs
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.baml
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.baml
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\GameStoreDB.mdf
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\GameStoreDB_log.ldf
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.exe
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\GameStoreDB.mdf
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\GameStoreDB_log.ldf
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.deps.json
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.runtimeconfig.json
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\ref\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.pdb
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.AssemblyReference.cache
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\ResDictionary.baml
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.g.cs
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.g.cs
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\App.g.cs
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.cache
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.lref
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\App.baml
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.baml
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.baml
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.baml
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.g.resources
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfoInputs.cache
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfo.cs
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CoreCompileInputs.cache
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CopyComplete
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\ref\GameStore.dll
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.pdb
+E:\Programs\OneDrive\Рабочий стол\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.genruntimeconfig.cache
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.exe
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.deps.json
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.runtimeconfig.json
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\ref\GameStore.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.pdb
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.AssemblyReference.cache
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\ResDictionary.baml
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.g.cs
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.g.cs
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\App.g.cs
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.cache
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.lref
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\App.baml
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.baml
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.baml
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.baml
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.g.resources
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.GeneratedMSBuildEditorConfig.editorconfig
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfoInputs.cache
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfo.cs
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CoreCompileInputs.cache
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CopyComplete
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.dll
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\ref\GameStore.dll
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.pdb
+H:\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.genruntimeconfig.cache
