@@ -1,10 +1,8 @@
 ﻿using GameStore.CustomControlls;
 using System.Windows;
 using System.Windows.Controls;
-using GameStore.ViewModel;
-using GameStore.ModelContext;
 using GameStore.Model;
-using System.Configuration;
+using System.Windows.Media;
 
 namespace GameStore.Views
 {
@@ -13,22 +11,31 @@ namespace GameStore.Views
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainWindowModel();
             WindowBorder windowBorder = new WindowBorder(this);
             MainGrid.SetValue(Grid.RowProperty, 0);
             MainGrid.Children.Add(windowBorder);
         }
 
-        private void mw_Loaded(object sender, RoutedEventArgs e)
+        private void tbLogin_TextChanged(object sender, TextChangedEventArgs e)
         {
-            try
+            if(LoginData.CheckLogin(tbLogin.Text))
             {
-                UserContext db = new UserContext();
-                db.Database.Initialize(false);
+                tbLogin.Foreground = new SolidColorBrush(Colors.Green);
             }
-            catch
+            else
             {
-                MessageBox.Show("Ошибка инициализации БД.");
+                tbLogin.Foreground = new SolidColorBrush(Colors.Red);
+            }
+        }
+        private void pbPassword_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            if (LoginData.CheckPassword(pbPassword.Password))
+            {
+                pbPassword.Foreground = new SolidColorBrush(Colors.Green);
+            }
+            else
+            {
+                pbPassword.Foreground = new SolidColorBrush(Colors.Red);
             }
         }
     }

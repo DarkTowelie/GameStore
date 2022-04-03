@@ -1,4 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <BitmapImage x:Key="AuthBack" UriSource="pack://application:,,,/Images/AuthBack.jpg"/>
+    <BitmapImage x:Key="RegBack" UriSource="pack://application:,,,/Images/RegBack.jpeg"/>
 </ResourceDictionary>

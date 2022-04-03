@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hhOL3Y1rZ9k3Occg1X6BT1jHEeSoLGkFT4hUaCDNk3sVjLckmtnPOV9ByqCyY15q0gtFldnQgk28iA04aL4sgw==",
+  "dgSpecHash": "LvZbzq2JXT0JvpKDtLzshR9kYD1HL97mdY9QDT8zGq1Cybx85S1WvUb7KLwJuoeUOPscj+ObsGq2EALgN1qyGg==",
   "success": true,
-  "projectFilePath": "H:\\GameStore\\GameStore\\GameStore.csproj",
+  "projectFilePath": "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\GameStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\valer\\.nuget\\packages\\materialdesigncolors\\2.0.5\\materialdesigncolors.2.0.5.nupkg.sha512",

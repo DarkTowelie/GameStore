@@ -1,26 +1,19 @@
 ﻿using GameStore.Commands;
 using GameStore.Model;
+using GameStore.ModelContext;
 using GameStore.Views;
+using System;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Windows;
+using System.Windows.Controls;
 
 namespace GameStore.ViewModel
 {
     internal class MainWindowModel : INotifyPropertyChanged
     {
-        User currentUser;
+        public event EventHandler EventCloseWindow;
         string currentUserLogin;
-        string currentUserPassword;
-        public User CurrentUser
-        {
-            get { return currentUser; }
-            set 
-            {
-                currentUser = value;
-                OnPropertyChanged("NewUser");
-            }
-        }
 
         public string CurrentUserLogin
         {
@@ -32,28 +25,16 @@ namespace GameStore.ViewModel
             }
         }
 
-        public string CurrentUserPassword
-        {
-            get { return currentUserPassword; }
-            set
-            {
-                currentUserPassword = value;
-                OnPropertyChanged("CurrentUserPassword");
-            }
-        }
-
-        private BaseCommands createRegWindow;
-        public BaseCommands CreateRegWindow
+        private BaseCommands changeToRegWindow;
+        public BaseCommands ChangeToRegWindow
         {
             get
             {
-                return createRegWindow ??
-                    (createRegWindow = new BaseCommands(obj =>
+                return changeToRegWindow ??
+                    (changeToRegWindow = new BaseCommands(obj =>
                     {
-                        RegWindow regWindow = new RegWindow();
-                        regWindow.Show();
-                        Window window = (Window)obj;
-                        window.Close();
+                        WindowsBuilder.ShowRegWindow();
+                        CloseWindow();
                     }));
             }
         }
@@ -66,7 +47,21 @@ namespace GameStore.ViewModel
                 return loginUser ??
                     (loginUser = new BaseCommands(obj =>
                     {
-                        currentUser = new User(0, "", "", "");
+                        PasswordBox pb = (PasswordBox)obj;
+                        using (DBContext db = new DBContext())
+                        {
+                            var users = db.User.ToList();
+                            var user = users.Where(u => u.Login == currentUserLogin 
+                                                    && u.Password == pb.Password).FirstOrDefault();
+                            if(user != null)
+                            {
+                                LoginData.CurrentUser.Id = user.Id;
+                                LoginData.CurrentUser.Login = user.Login;
+                                LoginData.CurrentUser.UserEmail = user.Email;
+                                CloseWindow();
+                            }
+                        }
+                        
                     }));
             }
         }
@@ -77,5 +72,7 @@ namespace GameStore.ViewModel
             if (PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
+
+        public void CloseWindow() => EventCloseWindow?.Invoke(this, EventArgs.Empty);
     }
 }

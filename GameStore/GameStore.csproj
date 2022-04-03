@@ -9,12 +9,14 @@
 
   <ItemGroup>
     <None Remove="Images\AuthBack.jpg" />
+    <None Remove="Images\RegBack.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\AuthBack.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\RegBack.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +26,12 @@
 
   <ItemGroup>
     <None Update="GameStoreDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Games\GuiltyGear Strive.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Games\ResidentEvil2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

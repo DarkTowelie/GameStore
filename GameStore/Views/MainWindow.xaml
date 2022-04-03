@@ -13,8 +13,8 @@
         Height="450"
         Width="800"
         ResizeMode="NoResize"
-        WindowStyle="None" 
-        Loaded="mw_Loaded"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
 >
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
@@ -49,20 +49,19 @@
                      Background="White"
                      Foreground="Black"
                      VerticalContentAlignment="Center" Cursor="Arrow"
-                     FontSize="16"
-                     Text="{Binding CurrentUserLogin, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="15"
+                     Text="{Binding CurrentUserLogin, UpdateSourceTrigger=PropertyChanged}" TextChanged="tbLogin_TextChanged"
             />
-            <TextBox x:Name="pbPassword"
+            <PasswordBox x:Name="pbPassword"
                      Grid.Row="3" 
                      Grid.Column="1"
-                     Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                     Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
                      materialDesign:HintAssist.Hint="Пароль"
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF8D00D2"
                      Background="White"
                      Foreground="Black"
                      VerticalContentAlignment="Center"
-                     FontSize="16" Cursor="Arrow"
-                     Text="{Binding CurrentUserPassword, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="15" PasswordChanged="pbPassword_PasswordChanged"
             />
             <Grid Grid.Row="5" Grid.Column="1">
                 <Grid.ColumnDefinitions>
@@ -81,6 +80,7 @@
                         Content="ВОЙТИ"
                         BorderBrush="#FF484848"
                         Command="{Binding LoginUser}"
+                        CommandParameter="{Binding ElementName=pbPassword}"
                 />
                 <Button x:Name="bOpenReg"
                         Grid.Row="0"
@@ -92,8 +92,7 @@
                         VerticalContentAlignment="Center"
                         Content="РЕГИСТРАЦИЯ"
                         BorderBrush="#FF484848"
-                        Command="{Binding CreateRegWindow}"
-                        CommandParameter="{Binding ElementName=mw}"
+                        Command="{Binding ChangeToRegWindow}"
                 />
             </Grid>
         </Grid>

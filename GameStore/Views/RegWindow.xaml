@@ -12,6 +12,7 @@
         Width="800"
         ResizeMode="NoResize"
         WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
 >
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
@@ -21,7 +22,7 @@
         
         <Grid Grid.Row="1">
             <Grid.Background>
-                <ImageBrush ImageSource="{StaticResource AuthBack}"/>
+                <ImageBrush ImageSource="{StaticResource RegBack}"/>
             </Grid.Background>
             <Grid.RowDefinitions>
                 <RowDefinition Height="45*"/>
@@ -50,7 +51,9 @@
                      Background="White"
                      Foreground="Black"
                      VerticalContentAlignment="Center" Cursor="Arrow"
-                     FontSize="16"
+                     FontSize="15"
+                     TextChanged="tbLogin_TextChanged"
+                     Text="{Binding NewUserLogin}"
             />
             <TextBox x:Name="tbEmail"
                      Grid.Row="3" 
@@ -61,9 +64,11 @@
                      Background="White"
                      Foreground="Black"
                      VerticalContentAlignment="Center" Cursor="Arrow"
-                     FontSize="16"
+                     FontSize="15"
+                     TextChanged="tbEmail_TextChanged"
+                     Text="{Binding NewUserEmail}"
             />
-            <PasswordBox x:Name="tbPassword"
+            <PasswordBox x:Name="pbPassword"
                      Grid.Row="5" 
                      Grid.Column="1"
                      Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
@@ -72,9 +77,9 @@
                      Background="White"
                      Foreground="Black"
                      VerticalContentAlignment="Center"
-                     FontSize="16" Cursor="Arrow"
+                     FontSize="15" Cursor="Arrow" PasswordChanged="pbPassword_PasswordChanged"
             />
-            <PasswordBox x:Name="tbRepPassword"
+            <PasswordBox x:Name="pbRepPassword"
                      Grid.Row="7" 
                      Grid.Column="1"
                      Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
@@ -83,7 +88,7 @@
                      Background="White"
                      Foreground="Black"
                      VerticalContentAlignment="Center"
-                     FontSize="16" Cursor="Arrow"
+                     FontSize="15" Cursor="Arrow" PasswordChanged="pbRepPassword_PasswordChanged"
             />
             <Grid Grid.Row="9" Grid.Column="1">
                 <Grid.ColumnDefinitions>
@@ -99,8 +104,9 @@
                         Cursor="Hand"
                         FontSize="14"
                         VerticalContentAlignment="Center"
-                        Content="ВОЙТИ"
+                        Content="НАЗАД"
                         BorderBrush="#FF484848"
+                        Command="{Binding ChangeToMainWindow}"
                 />
                 <Button x:Name="bPassword"
                         Grid.Row="0"

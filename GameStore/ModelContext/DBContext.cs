@@ -3,13 +3,14 @@ using System.Data.Entity;
 
 namespace GameStore.ModelContext
 {
-    class UserContext : DbContext
+    class DBContext : DbContext
     {
-        public UserContext()
+        public DBContext()
         {
-            
+
         }
 
         public DbSet<User> User { get; set; }
+        public DbSet<Game> Game { get; set; }
     }
 }

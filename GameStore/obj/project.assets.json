@@ -1109,11 +1109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\GameStore\\GameStore\\GameStore.csproj",
+      "projectUniqueName": "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\GameStore.csproj",
       "projectName": "GameStore",
-      "projectPath": "H:\\GameStore\\GameStore\\GameStore.csproj",
+      "projectPath": "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\GameStore.csproj",
       "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
-      "outputPath": "H:\\GameStore\\GameStore\\obj\\",
+      "outputPath": "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Programs\\Visual Studio\\Shared\\NuGetPackages",

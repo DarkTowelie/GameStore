@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-H:\GameStore\GameStore\obj\Debug\net6.0-windows\
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\
 GameStore
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-H:\GameStore\GameStore\App.xaml
-41487425955
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\App.xaml
+5-142156523
 
-1127172800
+17-707315291
 1991753565059
-CustomControlls\WindowBorder.xaml;ResDictionary.xaml;Views\MainWindow.xaml;Views\RegWindow.xaml;
+CustomControlls\WindowBorder.xaml;ResDictionary.xaml;Views\MainWindow.xaml;Views\RegWindow.xaml;Views\StoreWindow.xaml;
 
-False
+True
 

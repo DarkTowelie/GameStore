@@ -8,7 +8,7 @@ namespace GameStore.Commands
         private Action<object> execute;
         private Func<object, bool> canExecute;
 
-        public BaseCommands(Action<object> execute)
+        public BaseCommands(Action<object> execute, Func<object, bool> canExecute = null)
         {
             this.execute = execute;
             this.canExecute = canExecute;
