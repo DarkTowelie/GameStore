@@ -28,9 +28,5 @@ namespace GameStore.Views
         {
             pbPassword.Foreground = LoginData.CheckPassword(pbPassword.Password) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
         }
-        private void pbRepPassword_PasswordChanged(object sender, RoutedEventArgs e)
-        {
-            pbRepPassword.Foreground = LoginData.CheckPassword(pbRepPassword.Password) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
-        }
     }
 }

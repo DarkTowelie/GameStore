@@ -80,17 +80,6 @@
                      VerticalContentAlignment="Center"
                      FontSize="15" Cursor="Arrow" PasswordChanged="pbPassword_PasswordChanged"
             />
-            <PasswordBox x:Name="pbRepPassword"
-                     Grid.Row="7" 
-                     Grid.Column="1"
-                     Style="{StaticResource MaterialDesignOutlinedPasswordBox}"
-                     materialDesign:HintAssist.Hint="Повторите пароль"
-                     materialDesign:TextFieldAssist.UnderlineBrush="#FF8D00D2"
-                     Background="White"
-                     Foreground="Black"
-                     VerticalContentAlignment="Center"
-                     FontSize="15" Cursor="Arrow" PasswordChanged="pbRepPassword_PasswordChanged"
-            />
             <Grid Grid.Row="9" Grid.Column="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="145*"/>
