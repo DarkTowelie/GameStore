@@ -18,47 +18,19 @@ namespace GameStore.Views
 
         private void tbLogin_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (LoginData.CheckLogin(tbLogin.Text))
-            {
-                tbLogin.Foreground = new SolidColorBrush(Colors.Green);
-            }
-            else
-            {
-                tbLogin.Foreground = new SolidColorBrush(Colors.Red);
-            }
+            tbLogin.Foreground = LoginData.CheckLogin(tbLogin.Text) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
         }
         private void tbEmail_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (LoginData.CheckEmail(tbEmail.Text))
-            {
-                tbEmail.Foreground = new SolidColorBrush(Colors.Green);
-            }
-            else
-            {
-                tbEmail.Foreground = new SolidColorBrush(Colors.Red);
-            }
+            tbEmail.Foreground = LoginData.CheckEmail(tbEmail.Text) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
         }
         private void pbPassword_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            if (LoginData.CheckPassword(pbPassword.Password))
-            {
-                pbPassword.Foreground = new SolidColorBrush(Colors.Green);
-            }
-            else
-            {
-                pbPassword.Foreground = new SolidColorBrush(Colors.Red);
-            }
+            pbPassword.Foreground = LoginData.CheckPassword(pbPassword.Password) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
         }
         private void pbRepPassword_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            if (LoginData.CheckPassword(pbRepPassword.Password))
-            {
-                pbRepPassword.Foreground = new SolidColorBrush(Colors.Green);
-            }
-            else
-            {
-                pbRepPassword.Foreground = new SolidColorBrush(Colors.Red);
-            }
+            pbRepPassword.Foreground = LoginData.CheckPassword(pbRepPassword.Password) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
         }
     }
 }

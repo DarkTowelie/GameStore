@@ -118,3 +118,4 @@ E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\Views\StoreWindow.baml
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\GuiltyGear Strive.jpg
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\ResidentEvil2.jpg
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs

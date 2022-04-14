@@ -6,6 +6,7 @@ using System;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace GameStore.ViewModel
@@ -58,7 +59,12 @@ namespace GameStore.ViewModel
                                 LoginData.CurrentUser.Id = user.Id;
                                 LoginData.CurrentUser.Login = user.Login;
                                 LoginData.CurrentUser.UserEmail = user.Email;
+                                WindowsBuilder.ShowStoreWindow();
                                 CloseWindow();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Пользователь не найден!");
                             }
                         }
                         
