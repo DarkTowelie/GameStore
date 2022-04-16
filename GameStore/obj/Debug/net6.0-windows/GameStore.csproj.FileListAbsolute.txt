@@ -118,4 +118,12 @@ E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\Views\StoreWindow.baml
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\GuiltyGear Strive.jpg
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\ResidentEvil2.jpg
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\MaximizeBoxWindowBorder.g.cs
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\MaximizeBoxWindowBorder.baml
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\DarkestDungeon2.jpg
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\DMC5.jpg
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\HL2.jpg
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\HuntShowdown.jpg
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\SpaceRangers2.jpg
+E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\TheWitcher3.jpg

@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="CustomControlls\MaximizeBoxWindowBorder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CustomControlls\WindowBorder.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -18,6 +21,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="CustomControlls\MaximizeBoxWindowBorder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CustomControlls\WindowBorder.xaml">
       <SubType>Designer</SubType>
     </Page>

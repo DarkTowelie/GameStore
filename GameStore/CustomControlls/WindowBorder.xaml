@@ -7,7 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="40" 
              d:DesignWidth="800"
-             Background="#FF484848" MouseDown="UserControl_MouseDown">
+             Background="#FF484848"
+             MouseDown="UserControl_MouseDown">
     <Grid x:Name="MainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="717*"/>
@@ -15,5 +16,21 @@
             <ColumnDefinition Width="40*"/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
+        <Button x:Name="bHide"
+                Grid.Column="1"
+                Background="#FF005047"
+                Content="_"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center" Click="bHide_Click"
+        />
+
+        <Button x:Name="bClose"
+                Grid.Column="2"
+                Background="#FF8D00D2"
+                Foreground="White"
+                Content="X"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center" Click="bClose_Click"
+        />
     </Grid>
 </UserControl>
