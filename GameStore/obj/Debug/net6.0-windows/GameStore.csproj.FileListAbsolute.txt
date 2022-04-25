@@ -127,3 +127,53 @@ E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\HuntShowdown.jpg
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\SpaceRangers2.jpg
 E:\Programs\OneDrive\Рабочий стол\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\TheWitcher3.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.exe
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\DarkestDungeon2.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\DMC5.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\GuiltyGear Strive.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\HL2.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\HuntShowdown.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\ResidentEvil2.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\SpaceRangers2.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\Games\TheWitcher3.jpg
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.deps.json
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.runtimeconfig.json
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\ref\GameStore.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\GameStore.pdb
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.AssemblyReference.cache
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\ResDictionary.baml
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\MaximizeBoxWindowBorder.g.cs
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.g.cs
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.g.cs
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\Views\StoreWindow.g.cs
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\App.g.cs
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.cache
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore_MarkupCompile.lref
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\App.baml
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\MaximizeBoxWindowBorder.baml
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\CustomControlls\WindowBorder.baml
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\Views\MainWindow.baml
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\Views\RegWindow.baml
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\Views\StoreWindow.baml
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.g.resources
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfoInputs.cache
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.AssemblyInfo.cs
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CoreCompileInputs.cache
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.csproj.CopyComplete
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\ref\GameStore.dll
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.pdb
+C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.genruntimeconfig.cache

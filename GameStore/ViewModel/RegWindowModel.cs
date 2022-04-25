@@ -64,9 +64,9 @@ namespace GameStore.ViewModel
                         {
                             PasswordBox pb = (PasswordBox)obj;
                             string? password = pb.Password;
-                            bool userExist = db.User.Contains(db.User.Where(u => u.Login == newUserLogin).FirstOrDefault()); ;
+                            User? user = db.User.Where(u => u.Login == newUserLogin).FirstOrDefault();
 
-                            if(!userExist)
+                            if(user != null)
                             {
                                 if(password != null)
                                 {

@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\GameStore.csproj": {}
+    "C:\\Шестаков В.В\\C#\\GameStore\\GameStore\\GameStore.csproj": {}
   },
   "projects": {
-    "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\GameStore.csproj": {
+    "C:\\Шестаков В.В\\C#\\GameStore\\GameStore\\GameStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\GameStore.csproj",
+        "projectUniqueName": "C:\\Шестаков В.В\\C#\\GameStore\\GameStore\\GameStore.csproj",
         "projectName": "GameStore",
-        "projectPath": "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\GameStore.csproj",
-        "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
-        "outputPath": "E:\\Programs\\OneDrive\\Рабочий стол\\For Cloning\\GameStore\\GameStore\\obj\\",
+        "projectPath": "C:\\Шестаков В.В\\C#\\GameStore\\GameStore\\GameStore.csproj",
+        "packagesPath": "C:\\Users\\Win10m\\.nuget\\packages\\",
+        "outputPath": "C:\\Шестаков В.В\\C#\\GameStore\\GameStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Programs\\Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win10m\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

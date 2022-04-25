@@ -9,8 +9,7 @@
         Height="450"
         Width="800"
         WindowStyle="None"
-        ResizeMode="CanResizeWithGrip"
-        AllowsTransparency="True"
+        ResizeMode="CanResize"
         Background="#FF8A8A8A"
         >
     <Grid x:Name="MainGrid">
@@ -24,6 +23,35 @@
                 <ColumnDefinition Width="300"/>
                 <ColumnDefinition Width="500*"/>
             </Grid.ColumnDefinitions>
+
+            <DockPanel 
+                Grid.Column="0" 
+                Background="#FF2C2C2C"
+            >
+                <Grid x:Name="ProfileGrid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="80*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="75*"/>
+                        <RowDefinition Height="10*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="10*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35*"/>
+                        <ColumnDefinition Width="226*"/>
+                        <ColumnDefinition Width="35*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="Avatar"
+                           Grid.Column="1"
+                           Grid.Row="1"/>
+                </Grid>
+            </DockPanel>
             <ScrollViewer Grid.Column="1" 
                           Background="#FF646464"
             >
