@@ -28,6 +28,9 @@
     <None Update="GameStoreDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Images\defAvatar.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Images\Games\DarkestDungeon2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

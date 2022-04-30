@@ -47,9 +47,23 @@
                         <ColumnDefinition Width="226*"/>
                         <ColumnDefinition Width="35*"/>
                     </Grid.ColumnDefinitions>
-                    <Image x:Name="Avatar"
+                    <Image x:Name="iAvatar"
                            Grid.Column="1"
                            Grid.Row="1"/>
+                    <Button x:Name="bAvatar"
+                            Grid.Column="2"
+                            Grid.Row="1"
+                            Content="..."
+                            Command="{Binding LoadAvatar}"/>
+                    <Label x:Name="lLogin"
+                           Grid.Column="1"
+                           Grid.Row="3"/>
+                    <Label x:Name="lBalance"
+                           Grid.Column="1"
+                           Grid.Row="5"/>
+                    <Button x:Name="bLogout"
+                            Grid.Column="1"
+                            Grid.Row="9"/>
                 </Grid>
             </DockPanel>
             <ScrollViewer Grid.Column="1" 

@@ -66,7 +66,8 @@ namespace GameStore.ViewModel
                             string? password = pb.Password;
                             User? user = db.User.Where(u => u.Login == newUserLogin).FirstOrDefault();
 
-                            if(user != null)
+                            if(user == null && LoginData.CheckLogin(newUserLogin) &&
+                            LoginData.CheckEmail(newUserEmail) && LoginData.CheckPassword(pb.Password))
                             {
                                 if(password != null)
                                 {
@@ -79,7 +80,7 @@ namespace GameStore.ViewModel
                             }
                             else
                             {
-                                MessageBox.Show("Пользователь с траким логином уже существует");
+                                MessageBox.Show("Пользователь уже существует или данные неверны!");
                             }
                         }
                     }));

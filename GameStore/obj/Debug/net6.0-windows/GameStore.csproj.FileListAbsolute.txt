@@ -177,3 +177,4 @@ C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameSt
 C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\ref\GameStore.dll
 C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.pdb
 C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.genruntimeconfig.cache
+C:\Шестаков В.В\C#\GameStore\GameStore\bin\Debug\net6.0-windows\Images\defAvatar.jpg
