@@ -8,6 +8,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace GameStore.ViewModel
 {
@@ -23,6 +24,28 @@ namespace GameStore.ViewModel
             {
                 currentUserLogin = value;
                 OnPropertyChanged("CurrentUserLogin");
+            }
+        }
+
+        Brush loginColor;
+        public Brush LoginColor
+        {
+            get { return loginColor; }
+            set
+            {
+                loginColor = value;
+                OnPropertyChanged("LoginColor");
+            }
+        }
+
+        Brush passwordColor;
+        public Brush PasswordColor
+        {
+            get { return passwordColor; }
+            set
+            {
+                passwordColor = value;
+                OnPropertyChanged("PasswordColor");
             }
         }
 
@@ -49,6 +72,9 @@ namespace GameStore.ViewModel
                     (loginUser = new BaseCommands(obj =>
                     {
                         PasswordBox pb = (PasswordBox)obj;
+                        LoginColor = LoginData.CheckLogin(currentUserLogin) ? Brushes.Green : Brushes.Red;
+                        PasswordColor = LoginData.CheckPassword(pb.Password) ? Brushes.Green : Brushes.Red;
+
                         using (DBContext db = new DBContext())
                         {
                             var users = db.User.ToList();
@@ -79,6 +105,11 @@ namespace GameStore.ViewModel
                 PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
 
+        public MainWindowModel()
+        {
+            LoginColor = Brushes.Black;
+            PasswordColor = Brushes.Black;
+        }
         public void CloseWindow() => EventCloseWindow?.Invoke(this, EventArgs.Empty);
     }
 }

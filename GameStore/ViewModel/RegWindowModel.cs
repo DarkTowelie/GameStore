@@ -7,6 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace GameStore.ViewModel
 {
@@ -37,6 +38,40 @@ namespace GameStore.ViewModel
             }
         }
 
+        Brush emailColor;
+        public Brush EmailColor
+        {
+            get { return emailColor; }
+            set
+            {
+                emailColor = value;
+                OnPropertyChanged("EmailColor");
+            }
+        }
+
+        Brush loginColor;
+        public Brush LoginColor
+        {
+            get { return loginColor; }
+            set
+            {
+                loginColor = value;
+                OnPropertyChanged("LoginColor");
+            }
+        }
+
+        Brush passwordColor;
+        public Brush PasswordColor
+        {
+            get { return passwordColor; }
+            set
+            {
+                passwordColor = value;
+                OnPropertyChanged("PasswordColor");
+            }
+        }
+
+
         private BaseCommands changeToMainWindow;
         public BaseCommands ChangeToMainWindow
         {
@@ -63,6 +98,11 @@ namespace GameStore.ViewModel
                         using (DBContext db = new DBContext())
                         {
                             PasswordBox pb = (PasswordBox)obj;
+
+                            LoginColor = LoginData.CheckLogin(newUserLogin) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
+                            EmailColor = LoginData.CheckEmail(newUserEmail) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
+                            PasswordColor = LoginData.CheckPassword(pb.Password) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
+
                             string? password = pb.Password;
                             User? user = db.User.Where(u => u.Login == newUserLogin).FirstOrDefault();
 
@@ -94,6 +134,12 @@ namespace GameStore.ViewModel
                 PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
 
+        public RegWindowModel()
+        {
+            LoginColor = new SolidColorBrush(Colors.Black);
+            EmailColor = new SolidColorBrush(Colors.Black);
+            PasswordColor = new SolidColorBrush(Colors.Black);
+        }
         public void CloseWindow() => EventCloseWindow?.Invoke(this, EventArgs.Empty);
     }
 }

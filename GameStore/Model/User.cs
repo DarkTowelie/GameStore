@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace GameStore.Model
 {
 
-    internal class User
+    public class User
     {
         public int Id { get; private set; }
         public string Login { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public byte[] Avatar { get; set; }
-        public List<Game> Games { get; set; } = new();
+        public virtual List<Game> Games { get; set; } = new();
 
         public User()
         {

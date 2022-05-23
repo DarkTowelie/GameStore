@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Шестаков В.В\C#\GameStore\GameStore\obj\Debug\net6.0-windows\
+E:\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\
 GameStore
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Шестаков В.В\C#\GameStore\GameStore\App.xaml
+E:\For Cloning\GameStore\GameStore\App.xaml
 61875616196
 
 19-1690224899
-1991340379206
+199-1653385571
 CustomControlls\MaximizeBoxWindowBorder.xaml;CustomControlls\WindowBorder.xaml;ResDictionary.xaml;Views\MainWindow.xaml;Views\RegWindow.xaml;Views\StoreWindow.xaml;
 
-False
+True
 

@@ -47,10 +47,10 @@
                      materialDesign:HintAssist.Hint="Логин"
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF8D00D2"
                      Background="White"
-                     Foreground="Black"
                      VerticalContentAlignment="Center" Cursor="Arrow"
                      FontSize="15"
-                     Text="{Binding CurrentUserLogin, UpdateSourceTrigger=PropertyChanged}" TextChanged="tbLogin_TextChanged"
+                     Text="{Binding CurrentUserLogin, UpdateSourceTrigger=PropertyChanged}"
+                     Foreground="{Binding Path=LoginColor}"
             />
             <PasswordBox x:Name="pbPassword"
                      Grid.Row="3" 
@@ -59,9 +59,10 @@
                      materialDesign:HintAssist.Hint="Пароль"
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF8D00D2"
                      Background="White"
-                     Foreground="Black"
                      VerticalContentAlignment="Center"
-                     FontSize="15" PasswordChanged="pbPassword_PasswordChanged"
+                     FontSize="15"
+                     Foreground="{Binding Path=PasswordColor}"
+                     Cursor="Arrow"       
             />
             <Grid Grid.Row="5" Grid.Column="1">
                 <Grid.ColumnDefinitions>
