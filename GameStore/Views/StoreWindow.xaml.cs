@@ -16,9 +16,10 @@ namespace GameStore.Views
         {
             InitializeComponent();
             MaximizeBoxWindowBorder windowBorder = new MaximizeBoxWindowBorder(this);
-            MainGrid.SetValue(Grid.RowProperty, 0);
+            windowBorder.SetValue(Grid.RowProperty, 0);
             MainGrid.Children.Add(windowBorder);
             FillGrid();
+            InitTreeView();
         }
 
         void FillGrid()
@@ -27,8 +28,8 @@ namespace GameStore.Views
             {
                 List<RowDefinition> rows = new List<RowDefinition>();
                 int gamesCount = db.Game.Count();
-                int rowsCount = (gamesCount + 1) / 2;
-                for (int i = 0; i < rowsCount; i++)
+                int gamesRowsCount = (gamesCount + 1) / 2;
+                for (int i = 0; i < gamesRowsCount; i++)
                 {
                     rows.Add(new RowDefinition());
                     rows[i * 2].Height = new GridLength(30);
@@ -76,6 +77,21 @@ namespace GameStore.Views
                     }
                     index++;
                 }
+            }
+        }
+
+        void InitTreeView()
+        {
+            using(DBContext db = new DBContext())
+            {
+                User currentUser = db.User.FirstOrDefault(u=>u.Id == LoginData.CurrentUser.Id);
+                foreach(Game g in currentUser.Games)
+                {
+                    var item = new TreeViewItem();
+                    item.Header = g.Name;
+                    tv_userGames.Items.Add(item);
+                }
+                
             }
         }
     }

@@ -46,13 +46,18 @@ namespace GameStore.CustomControlls
 
         private void bHide_Click(object sender, RoutedEventArgs e)
         {
-            this.parent.WindowState = WindowState.Minimized;
+            this.parent.Hide();
         }
 
         private void UserControl_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
                 parent.DragMove();
+        }
+
+        private void TaskbarIcon_TrayLeftMouseDown(object sender, RoutedEventArgs e)
+        {
+            this.parent.Show();
         }
     }
 }

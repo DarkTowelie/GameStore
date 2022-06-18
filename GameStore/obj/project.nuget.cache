@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wFBTEiN0DidfUxyACr2BBII0Axx+O7g9/IdH9H0IjWf6kEE7ZCdnqwP30TasytlWahP+q5W3ndIB/lycyfkchQ==",
+  "dgSpecHash": "jxT+aP4g3fM/nXMj+/VmPNhELzbXeqSz/ogKQ0eO6ffL5KhdNMqy58N9yfQFWgw9jygcwx5lD9Ir+C59sAbcOQ==",
   "success": true,
   "projectFilePath": "E:\\For Cloning\\GameStore\\GameStore\\GameStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\hardcodet.notifyicon.wpf\\1.1.0\\hardcodet.notifyicon.wpf.1.1.0.nupkg.sha512",
     "C:\\Users\\valer\\.nuget\\packages\\materialdesigncolors\\2.0.5\\materialdesigncolors.2.0.5.nupkg.sha512",
     "C:\\Users\\valer\\.nuget\\packages\\materialdesignthemes\\4.4.0\\materialdesignthemes.4.4.0.nupkg.sha512",
     "C:\\Users\\valer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

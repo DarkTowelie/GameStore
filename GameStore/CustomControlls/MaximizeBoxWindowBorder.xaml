@@ -8,7 +8,8 @@
              d:DesignHeight="40" 
              d:DesignWidth="800"
              Background="#FF484848"
-             MouseDown="UserControl_MouseDown">
+             MouseDown="UserControl_MouseDown"
+             xmlns:tb="http://www.hardcodet.net/taskbar">
     <Grid x:Name="MainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="677*"/>
@@ -17,6 +18,13 @@
             <ColumnDefinition Width="40"/>
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
+        <tb:TaskbarIcon x:Name="ti"
+            Visibility="Visible"
+            ToolTipText="StoreWindow"
+            TrayLeftMouseDown="TaskbarIcon_TrayLeftMouseDown"
+            IconSource="{StaticResource Icon}"
+        />
+
         <Button x:Name="bHide"
                 Grid.Column="1"
                 Background="#FF005047"

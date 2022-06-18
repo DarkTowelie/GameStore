@@ -229,3 +229,4 @@ E:\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.dll
 E:\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\ref\GameStore.dll
 E:\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.pdb
 E:\For Cloning\GameStore\GameStore\obj\Debug\net6.0-windows\GameStore.genruntimeconfig.cache
+E:\For Cloning\GameStore\GameStore\bin\Debug\net6.0-windows\Hardcodet.NotifyIcon.Wpf.dll

@@ -3,14 +3,9 @@ using GameStore.Model;
 using GameStore.ModelContext;
 using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
 namespace GameStore.ViewModel
@@ -38,6 +33,32 @@ namespace GameStore.ViewModel
             }
         }
 
+        private BaseCommands logOut;
+        public BaseCommands LogOut
+        {
+            get 
+            {
+                return logOut ?? (logOut = new BaseCommands(obj =>
+               {
+                   LoginData.CurrentUser.Login = "";
+                   LoginData.CurrentUser.UserEmail = "";
+                   LoginData.CurrentUser.Id = 0;
+                   WindowsBuilder.ShowMainWindow();
+                   CloseWindow();
+               }));
+            }
+        }
+
+        private string userName;
+        public string UserName
+        {
+            get { return userName; }
+            set
+            {
+                userName = value;
+                OnPropertyChanged();
+            }
+        }
 
         private BaseCommands loadAvatar;
         public BaseCommands LoadAvatar
@@ -73,9 +94,10 @@ namespace GameStore.ViewModel
 
         public StoreWindowModel()
         {
+            UserName = LoginData.CurrentUser.Login;
             using (DBContext db = new DBContext())
             {
-                User? currentUser = db.User.Where(u => u.Id == LoginData.CurrentUser.Id).FirstOrDefault();
+                User? currentUser = db.User.FirstOrDefault(u => u.Id == LoginData.CurrentUser.Id);
                 if (currentUser.Avatar.Length == 0)
                 {
                     var image = new BitmapImage();

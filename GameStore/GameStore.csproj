@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="Images\AuthBack.jpg" />
+    <None Remove="Images\dg.ico" />
     <None Remove="Images\RegBack.jpeg" />
   </ItemGroup>
 
@@ -16,11 +17,13 @@
     <Resource Include="Images\AuthBack.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\dg.ico" />
     <Resource Include="Images\RegBack.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
     <PackageReference Include="MaterialDesignThemes" Version="4.4.0" />
   </ItemGroup>
 

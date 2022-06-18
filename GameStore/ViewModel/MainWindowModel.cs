@@ -77,8 +77,7 @@ namespace GameStore.ViewModel
 
                         using (DBContext db = new DBContext())
                         {
-                            var users = db.User.ToList();
-                            var user = users.Where(u => u.Login == currentUserLogin 
+                            var user = db.User.Where(u => u.Login == currentUserLogin 
                                                     && u.Password == pb.Password).FirstOrDefault();
                             if(user != null)
                             {

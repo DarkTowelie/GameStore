@@ -9,9 +9,8 @@
         Height="450"
         Width="800"
         WindowStyle="None"
-        ResizeMode="CanResize"
-        Background="#FF8A8A8A"
-        >
+        ResizeMode="NoResize"
+        Background="#FF8A8A8A">
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
@@ -55,16 +54,32 @@
                             Grid.Column="2"
                             Grid.Row="1"
                             Content="..."
-                            Command="{Binding LoadAvatar}"/>
+                            Padding="0 0 0 0"
+                            Command="{Binding LoadAvatar}" Cursor="Hand" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
                     <Label x:Name="lLogin"
                            Grid.Column="1"
-                           Grid.Row="3"/>
+                           Grid.Row="3"
+                           Foreground="White"
+                           HorizontalAlignment="Center"
+                           Content="{Binding UserName}" FontSize="20" FontFamily="Broadway" FontWeight="Bold"/>
                     <Label x:Name="lBalance"
                            Grid.Column="1"
                            Grid.Row="5"/>
+                    <ScrollViewer 
+                        x:Name="sv_userGames"
+                        Grid.Column="1"
+                        Grid.Row="7">
+                        <TreeView 
+                            Foreground="White"
+                            x:Name="tv_userGames">
+                            
+                        </TreeView>
+                    </ScrollViewer>
                     <Button x:Name="bLogout"
                             Grid.Column="1"
-                            Grid.Row="9"/>
+                            Grid.Row="9"
+                            Content="Выход"
+                            Command="{Binding LogOut}"/>
                 </Grid>
             </DockPanel>
             <ScrollViewer Grid.Column="1" 
